@@ -1,0 +1,49 @@
+/* universal styling for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* more on this in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+/* adding styles to <header h1> tag and <a> tag in <header h1> */
+header h1 {
+    font font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+/* adding style to the <nav> in the <header> */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* adding style to the <nav> unordered list <ul> and its child list items <li>; all nested in the <header> */
+header nav ul li {
+    display: inline;
+}
+
+/* adding style to the anchors <a> within the list items <li> above */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
