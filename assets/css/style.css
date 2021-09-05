@@ -19,7 +19,7 @@ header {
 
 /* adding styles to <header h1> tag and <a> tag in <header h1> */
 header h1 {
-    font font-weight: bold;
+    font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
@@ -80,7 +80,7 @@ section {
 /* Styling hero section */
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    height: 600px;
+    height: 650px;
     background-size: cover;
     background-position: center;
     position: relative;
