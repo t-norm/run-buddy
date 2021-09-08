@@ -12,3 +12,5 @@ https://t-norm.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by t-norm
+
+# Run Buddy Inc.
