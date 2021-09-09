@@ -40,14 +40,18 @@ header nav {
 
 /* adding style to the <nav> unordered list <ul> and its child list items <li>; all nested in the <header> */
 header nav ul li {
-    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 /* adding style to the anchors <a> within the list items <li> above */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 /* styling the footer */
